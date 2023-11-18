@@ -8,11 +8,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
         
         <title>ActiveBox</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head>
     <body>
 
         <!-- Sprite SVG -->
-
         <svg style="display: none;">
 
             <symbol id="link-in" viewBox="0 0 448 512">
@@ -41,7 +42,7 @@
         </svg>
 
         <!-- header -->
-        <header class="header">
+        <header class="header jsHeader" id="header">
             <div class="container">
                 <div class="header-inner">
                     <div class="header-log">
@@ -54,13 +55,17 @@
                         <a href="#testimonials" class="nav-link">Testimonials</a>
                         <a href="#download" class="nav-link">Download</a>
                     </nav>
+
+                    <button type="button" class="burger">
+                        <span class="burger__item">Menu</span>
+                    </button>
                 </div>
             
             </div>
         </header>
 
         <!-- intro -->
-        <div class="intro">
+        <div class="intro" id="intro">
             <div class="container">
                 <div class="intro-inner">
                     <h1 class="intro-title">Your Favorite One Page
@@ -347,13 +352,15 @@
             </div>
             <div class="footer__theEnd">
                 <div class="footer__theEnd__inner">
-                    <div class="footer__theEnd__text">Copyright © 2015 ActiveBox. All Rights Reserved</div>
+                        <div class="footer__theEnd__text">Copyright © 2015 ActiveBox. All Rights Reserved</div>
                         <div>Made <span class="footer__theEnd__whiteText">by Kamal Chaneman</span></div>
-                    
                 </div>
             </div>
         </footer>
         <!-- /.footer -->
+
+        <!-- Javascript -->
+        <script src="main.js"></script>
     </body>
 </html>
 
