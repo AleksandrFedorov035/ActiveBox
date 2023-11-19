@@ -581,10 +581,7 @@ p {
     /* works */
     .works-item {
         width: 50%;
-<<<<<<< HEAD
-=======
-        height: 350px;
->>>>>>> 24ffb15a7e38840d3c46e3623f145bd8f3982f32
+
     }
 
 
@@ -680,10 +677,6 @@ p {
     /* works */
     .works-item {
         width: 100%;
-<<<<<<< HEAD
-=======
-        height: 350px;
->>>>>>> 24ffb15a7e38840d3c46e3623f145bd8f3982f32
     }
 
     /* team */
