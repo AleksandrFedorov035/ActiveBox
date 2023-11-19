@@ -581,6 +581,7 @@ p {
     /* works */
     .works-item {
         width: 50%;
+        height: 300px;
     }
 
 
@@ -676,6 +677,7 @@ p {
     /* works */
     .works-item {
         width: 100%;
+        height: 200px;
     }
 
     /* team */
