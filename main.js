@@ -11,7 +11,6 @@ $(function() {
         headerH = header.innerHeight();
         navH = nav.innerHeight();
         introH = intro.innerHeight();
-        headerH = header.innerHeight();
         scrollPos = $(this).scrollTop();
 
 
