@@ -4,6 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Описание страницы">
+        <meta name="keywords" content="создание сайтов, верстка сайтов">
+        <meta name="google" content="notranslate" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
         
@@ -49,14 +53,14 @@
                         <a href="#"><img src="images/ActiveBox-title.png" alt=""></a>
                     </div>
                     <nav class="nav" id="nav">
-                        <a href="#features" class="nav-link">Features</a>
-                        <a href="#works" class="nav-link">Works</a>
-                        <a href="#team" class="nav-link">Our Team</a>
-                        <a href="#testimonials" class="nav-link">Testimonials</a>
-                        <a href="#download" class="nav-link">Download</a>
+                        <a href="#features" class="nav-link" id="nav-link">Features</a>
+                        <a href="#works" class="nav-link" id="nav-link">Works</a>
+                        <a href="#team" class="nav-link" id="nav-link">Our Team</a>
+                        <a href="#testimonials" class="nav-link" id="nav-link">Testimonials</a>
+                        <a href="#download" class="nav-link" id="nav-link">Download</a>
                     </nav>
 
-                    <button type="button" class="burger">
+                    <button type="button" class="burger" id="burger">
                         <span class="burger__item">Menu</span>
                     </button>
                 </div>
@@ -77,8 +81,8 @@
             </div>
         </div>
         <!-- features -->
-        <div class="container" id="features">
-            <div class="features">
+        <div class="container">
+            <div class="features"  id="features">
                  <div class="features-item">
                     <img src="icones/pencil-and-liner.jpg" alt="" class="features-icon">
                     <h4 class="features-title">Easily Customised</h4>
@@ -282,19 +286,32 @@
         <!-- reviews -->
         <div class="reviews" id="testimonials">
             <div class="container">
-
-                <div class="reviews__item">
-                    <div class="reviews__photo">
-                        <img class="reviews__img" src="images/Slayder.jpg" alt="">
+                <div class="reviews__slider" id="reviewsSlider">
+                    <div>
+                        <div class="reviews__item">
+                            <div class="reviews__photo">
+                                <img class="reviews__img" src="images/Slayder.jpg" alt="">
+                            </div>
+                            <div class="reviews__content">
+                                <div class="reviews__text">“Integer posuere erat a ante 
+                                    venenatis dapibus posuere velit aliquet. Donec sed 
+                                    odio dui. Aenean eu leo quam...”</div>
+                                <div class="reviews__author">Susan Sims, Interaction Designer at XYZ</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="reviews__content">
-                        <div class="reviews__text">“Integer posuere erat a ante 
-                            venenatis dapibus posuere velit aliquet. Donec sed 
-                            odio dui. Aenean eu leo quam...”</div>
-                        <div class="reviews__author">Susan Sims, Interaction Designer at XYZ</div>
+                    <div>
+                        <div class="reviews__item">
+                            <div class="reviews__photo">
+                                <img class="reviews__img" src="images/Slayder.jpg" alt="">
+                            </div>
+                            <div class="reviews__content">
+                                <div class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quas fugiat doloribus hic omnis perferendis in. Aliquid culpa corporis saepe enim alias similique excepturi natus magni in beatae, fugiat ipsum.</div>
+                                <div class="reviews__author">Don Joe, IT prodaction</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
         <!-- /.reviews -->
@@ -360,6 +377,7 @@
         <!-- /.footer -->
 
         <!-- Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script src="main.js"></script>
     </body>
 </html>
